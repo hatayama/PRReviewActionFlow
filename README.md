@@ -15,10 +15,10 @@ GitHub の PR レビューコメントを集約し、コード修正と返信ま
 
 ## インストール方法（Claude Code Plugin Marketplace 経由）
 
-1. Claude Code のチャットで、次のコマンドを実行して marketplace を追加します（`your-username` は実際の GitHub ユーザー名や org 名に置き換えてください）:
+1. Claude Code のチャットで、次のコマンドを実行して marketplace を追加します:
 
    ```bash
-   /plugin marketplace add your-username/CCCmd
+   /plugin marketplace add hatayama/PRReviewActionFlow
    ```
 
 2. 続いて **PR Review Action Flow** プラグインをインストールします（プラグイン ID は `pr-review-action-flow` を想定）:
