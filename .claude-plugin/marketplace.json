@@ -1,13 +1,15 @@
 {
   "name": "pr-review-action-flow-marketplace",
   "description": "GitHub PR のレビューコメントからコード修正と返信までを行う「PR Review Action Flow」プラグインを提供するマーケットプレイスです。",
-  "owner": "hatayama",
+  "owner": {
+    "name": "hatayama"
+  },
   "plugins": [
     {
       "name": "pr-review-action-flow",
       "description": "GitHub の PR レビューコメントを取得・精査し、修正と返信まで Claude Code から行うためのプラグインです。",
       "version": "0.1.0",
-      "source": "https://github.com/hatayama/PRReviewActionFlow"
+      "source": "./"
     }
   ]
 }
